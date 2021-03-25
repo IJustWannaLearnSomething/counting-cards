@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   background-color: #00adb5;
@@ -5,6 +9,14 @@ body {
   font-family: 'Hachi Maru Pop', cursive;
   text-align: center;
   color: #eee;
+}
+
+/*Media Queries for responsivenes*/
+@media all (min-width: 768px) {
+  .body-section {
+    max-width: 50%;
+    margin: 0 auto;
+  }
 }
 
 /*Top Section*/
@@ -22,8 +34,7 @@ body {
 
 /*body section*/
 .body-section {
-  padding: 3rem 0;
-  max-width: 66%;
+  padding: 3rem 2.5rem;
 }
 
 .reset-box {
