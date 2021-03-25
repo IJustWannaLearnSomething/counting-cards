@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <title>Counting Cards</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header class="top-section">
+    <img src="https://media.giphy.com/media/Wqdu6WIyhwoGJSzq8G/giphy.gif" class="card-gif img-fluid" alt="">
+  </header>
+
+
+  <section class="container body-section">
+
+    <div class="form-section">
+      <form class="" action="index.html" method="post">
+        <div class="row">
+          <div class="input-box">
+            <label class="input-text" for="input1">
+              <h3>
+                Enter card face value:
+              </h3>
+              <p>
+                (available inputs: 2,3,4,5,6,7,8,9,t,j,q,k,a)
+              </p>
+            </label>
+            <br>
+            <input class="input-button" type="text" name="input1" value="" oninput="inputHandler()">
+          </div>
+          <div class="result-box">
+            <label class="result-heading" for="result">
+              <h2>Result</h2>
+            </label>
+            <br>
+            <input class="result-output" type="text" name="result" value="">
+          </div>
+          <div class="reset-box">
+            <button type="button" name="button" onclick="resetCount()">Reset</button>
+          </div>
+
+        </div>
+
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer-section">
+    <p>
+      &#169; Sanskar 2021
+    </p>
+  </footer>
+  <script src="script.js" charset="utf-8"></script>
+</body>
+
+</html>
