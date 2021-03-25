@@ -23,6 +23,7 @@ body {
 /*body section*/
 .body-section {
   padding: 3rem 0;
+  max-width: 66%;
 }
 
 .reset-box {
